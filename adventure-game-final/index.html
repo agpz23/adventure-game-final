@@ -37,7 +37,10 @@
         background-color: black;
     }
 </style>
-<canvas></canvas>
+
+document.body.innerHTML += '<canvas id="someId"></canvas>';
+document.getElementById('someBox').innerHTML = '<canvas id="someId"></canvas>';
+
 <script src="js/utils.js"></script>
 <script src="js/data/collisions.js"></script>
 <script src="js/classes/CollisionBlocks.js"></script>
