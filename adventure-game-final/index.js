@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Define the function to start the game
     function startGame() {
-
-        console.log("Starting games");
-        window.location.href = "index.html";
+        var startScreen = document.getElementById("start-container")
+        startScreen.remove()
     }
 })
 
@@ -105,5 +104,6 @@ function animate() {
 
 
 animate()
+
 
 
