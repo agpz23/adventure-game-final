@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#start-container {
+    padding: 10px;
+    background-image: url("./img/wholebgfinal.png");
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h1 {
+    color: aliceblue;
+}
+
+h1, p {
+    text-align:center;
+    
+}
+
+p {
+    color: red;
+    font-size: small;
+    
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.player-container {
+    display:inline-flexbox;
+    width: 100%;
+    font-size: medium;
+    color: aliceblue;
+}
+
+.player-container div {
+    width: 100%;
+}
+
+.player-controls {
+    list-style-type: none;
+}
+
+#start-button {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aliceblue;
+        border:rgb(from black );
+        color: black;
+        padding: 1px 5px;
+        cursor: pointer;
+}

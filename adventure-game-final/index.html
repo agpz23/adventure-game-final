@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Escape the Haunted Castle</title>
+</head>
+<body>
+ <!--Intro and controls page-->
+ <div id="start-container">
+    <h1>Escape the Castle</h1>
+    <p>Help little witch Everly escape the haunted castle!</p>
+
+    <h2>Controls</h2>
+
+    <div class="player-container">
+        <div class="player-controls-container">
+            <h3>Everly</h3>
+            <ul class="player-controls">
+                <li>W: Jump</li>
+                <li>A: Left</li>
+                <li>D: Right</li>
+            </ul>
+        </div>
+
+    <button id="start-button" type="button">Start Game</button>
+
+</div>
+
+</div>
+<style>
+    body {
+        background-color: black;
+    }
+</style>
+<canvas></canvas>
+<script src="js/utils.js"></script>
+<script src="js/data/collisions.js"></script>
+<script src="js/classes/CollisionBlocks.js"></script>
+<script src="js/classes/Sprite.js"></script>
+<script src ="js/classes/Player.js"></script>
+<script src="js/eventListeners.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+</html>
